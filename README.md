@@ -1,4 +1,4 @@
-HTML5 塔防游戏
+HTML5 Jogo de Tower Defense
 ==================================================
 
  * Author: oldj
@@ -7,65 +7,65 @@ HTML5 塔防游戏
  * Source: https://github.com/oldj/html5-tower-defense
 
 
- 运行：
+ Corrida：
 ----------
 
-进入 src 或 build 目录，用浏览器（如IE9）打开 td.html 即可运行本游戏。
-或者查看[线上Demo](http://oldj.net/static/html5-tower-defense/td.html)。
+entrar src ou build diretório，Navegador（como IE9）aberto td.html Para executar este jogo.
+ou veja[Demonstração Online](http://oldj.net/static/html5-tower-defense/td.html).
 
- 说明：
+ explicação：
 ----------
 
- 1. 本游戏完全使用 HTML5 / JavaScript / CSS 实现，没有用到 Flash、SilverLight 等技术。
- 2. 这一个版本没有用到图片，游戏中的所有物品都是使用 HTML5 画出来的。
- 3. 这一个版本部分地方为 IE9 做了专门的优化，可正常运行在 IE9 下。
+ 1. Este jogo é inteiramente em HTML5 / JavaScript / Implementação CSS, não usar o Flash, tecnologia Silverlight.
+ 2. Esta versão não utilizar fotos de todos os itens do jogo são desenhados usando HTML5.
+ 3. Esta é uma parte da versão local do IE9 para fazer um especial otimizado para ser executado sob IE9 normal.
 
 
- 目录：
+ Diretório：
 ----------
 
-    /build          压缩后的可发布的文件
-    /screenshorts   屏幕截图
-    /src            源码
-        /css        样式表
-        /js         JavaScripts 源文件
-    /tools          小工具、脚本
-    /README.md      本文件
+    /build          Arquivos compactados pode ser publicado
+    /screenshorts   screenshots
+    /src            fonte
+        /css        stylesheet
+        /js         Arquivo de origem JavaScripts
+    /tools          Gadgets, o script
+    /README.md      este documento
 
 
- 作弊方法：
+ Métodos Cheating：
 ----------
 
-为方便测试，本游戏内置了几个作弊方法，如下：
+Para facilitar os testes, o jogo construiu vários métodos de trapaça, como se segue：
 
- 1. 增加 100 万金钱：javascript:_TD.cheat="money+";void(0);
- 2. 难度增倍：javascript:_TD.cheat="difficulty+";void(0);
- 3. 难度减半：javascript:_TD.cheat="difficulty-";void(0);
- 4. 生命值恢复：javascript:_TD.cheat="life+";void(0);
- 5. 生命值降为最低：javascript:_TD.cheat="life-";void(0);
+ 1. Aumente 1000000 Money:javascript:_TD.cheat="money+";void(0);
+ 2. Dificuldade de duplicação:javascript:_TD.cheat="difficulty+";void(0);
+ 3. Dificuldade para metade:javascript:_TD.cheat="difficulty-";void(0);
+ 4. Recuperação de valor de vida:javascript:_TD.cheat="life+";void(0);
+ 5. O valor da vida reduzido ao mínimo:javascript:_TD.cheat="life-";void(0);
 
-在浏览器地址栏输入上面的“javascript:...;”并回车，即可实现作弊。
+Na barra de endereços do navegador digite o "javascript: ...;" acima e pressione Enter, você pode conseguir fazer a trapaça.
 
-注意，以上作弊方法主要是为测试设计，正常游戏过程中请酌情使用，否则可能会降低游戏乐趣。
+Note-se que o método acima de fazer a trapaça é principalmente para o design de teste, o curso normal do jogo, por favor, use discrição, caso contrário ele pode reduzir o jogo divertido.
 
 
- 更新历史：
+  Histórico de atualização：
 ----------
 
- - 2015-09-06 支持 retina 显示屏。
- - 2011-01-01 调整参数，同时根据网友建议，新建建筑时添加检查，禁止用建筑把怪物包围起来（v0.1.14）。
- - 2010-12-29 根据网友建议，增加生命自动恢复功能（每隔 5 波生命恢复 5 点，每隔 10 波生命恢复 10 点）。调整参数，减小了激光枪的射程，增强了重机枪的威力（v0.1.12）。
- - 2010-12-18 添加新武器“激光枪”（v0.1.8.0）。
- - 2010-12-12 暂停图片资源版本分支的开发，继续优化、开发圈圈版（v0.1.7.0）。
- - 2010-11-28 第一个图片资源版本（v0.2.1.3267）。
- - 2010-11-23 发布 [圈圈版（v0.1.6.2970）](http://oldj.net/article/html5-td-circle-version/)。
- - 2010-11-14 线上发布第一个版本。
- - 2010-11-11 开始编写这个游戏。
+ --2015-09-06 Tela retina Suporte.
+  --2011-01-01 Ajuste os parâmetros, mas também com os amigos sugeriu adicionar verificações para novos edifícios, proibir a utilização do edifício cercado pelo monstro (v0.1.14).
+  --2010-12-29 De acordo com amigos sugeriu a adição de função de auto recuperação da vida (a cada 5 recuperação ondas vida 05:00, 10 ondas cada vida recuperação 10:00). Ajustar os parâmetros, reduzindo a faixa de arma laser, e aumentar o poder de metralhadoras pesadas (v0.1.12).
+  --2010-12-18 Adicionar uma nova arma "arma a laser" (v0.1.8.0).
+  --2010-12-12 Pause imagem recurso versão desenvolvimento do ramo, continuar a otimizar, desenvolver a versão círculo (v0.1.7.0).
+  --2010-11-28 Primeira versão recurso de imagem (v0.2.1.3267).
+  --2010-11-23 Lançamento [Círculo Edition (v0.1.6.2970)] (http://oldj.net/article/html5-td-circle-version/).
+  --2010-11-14 Online lançou a primeira versão.
+  --2010-11-11 Comece a escrever este jogo.
 
 
- 开发计划：
+ Plano de Desenvolvimento：
 ----------
 
- - 添加新武器“加农炮”，特性：击中怪物时会发生爆炸，造成面攻击。
- - 添加关卡编辑器。
- - 添加保存进度的功能。
+ - Adicionar uma nova arma, "canhão", características: explodir quando atingido por um monstro, fazendo com que a superfície de ataque.
+  - Adicione um editor de níveis.
+  - Adicionar a função de salvar seu progresso.
